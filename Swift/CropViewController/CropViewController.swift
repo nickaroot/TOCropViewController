@@ -20,6 +20,8 @@
 //  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
 //  IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+import UIKit
+
 #if canImport(TOCropViewController)
 import TOCropViewController
 #endif
@@ -27,17 +29,17 @@ import TOCropViewController
 /**
  An enum containing all of the aspect ratio presets that this view controller supports
  */
-public typealias CropViewControllerAspectRatioPreset = TOCropViewControllerAspectRatioPreset
+//public typealias CropViewControllerAspectRatioPreset = TOCropViewControllerAspectRatioPreset
 
 /**
  An enum denoting whether the control tool bar is drawn at the top, or the bottom of the screen in portrait mode
  */
-public typealias CropViewControllerToolbarPosition = TOCropViewControllerToolbarPosition
+//public typealias CropViewControllerToolbarPosition = TOCropViewControllerToolbarPosition
 
 /**
  The type of cropping style for this view controller (ie a square or a circle cropping region)
  */
-public typealias CropViewCroppingStyle = TOCropViewCroppingStyle
+//public typealias CropViewCroppingStyle = TOCropViewCroppingStyle
 
 // ------------------------------------------------
 /// @name Delegate

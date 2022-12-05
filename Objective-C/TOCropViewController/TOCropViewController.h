@@ -22,6 +22,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "TOActivityCroppedImageProvider.h"
+#import "TOCropOverlayView.h"
+#import "TOCroppedImageAttributes.h"
+#import "TOCropScrollView.h"
+#import "TOCropViewControllerTransitioning.h"
+#import "UIImage+CropRotate.h"
+
 #import "TOCropViewConstants.h"
 #import "TOCropView.h"
 #import "TOCropToolbar.h"

@@ -28,7 +28,7 @@
 typedef NS_ENUM(NSInteger, TOCropViewCroppingStyle) {
     TOCropViewCroppingStyleDefault,     // The regular, rectangular crop box
     TOCropViewCroppingStyleCircular     // A fixed, circular crop box
-};
+} NS_SWIFT_NAME(CropViewCroppingStyle);
 
 /**
  Preset values of the most common aspect ratios that can be used to quickly configure
@@ -44,7 +44,7 @@ typedef NS_ENUM(NSInteger, TOCropViewControllerAspectRatioPreset) {
     TOCropViewControllerAspectRatioPreset7x5,
     TOCropViewControllerAspectRatioPreset16x9,
     TOCropViewControllerAspectRatioPresetCustom
-};
+} NS_SWIFT_NAME(CropViewControllerAspectRatioPreset);
 
 /**
  Whether the control toolbar is placed at the bottom or the top
@@ -52,7 +52,7 @@ typedef NS_ENUM(NSInteger, TOCropViewControllerAspectRatioPreset) {
 typedef NS_ENUM(NSInteger, TOCropViewControllerToolbarPosition) {
     TOCropViewControllerToolbarPositionBottom,  // Bar is placed along the bottom in portrait
     TOCropViewControllerToolbarPositionTop     // Bar is placed along the top in portrait (Respects the status bar)
-};
+} NS_SWIFT_NAME(CropViewControllerToolbarPosition);
 
 static inline NSBundle *TO_CROP_VIEW_RESOURCE_BUNDLE_FOR_OBJECT(NSObject *object) {
 #if SWIFT_PACKAGE

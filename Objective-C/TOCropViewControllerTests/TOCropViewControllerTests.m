@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-#import "TOCropViewController.h"
+#import "TOCropViewController/TOCropViewController.h"
 
 @interface TOCropViewControllerTests : XCTestCase
 
